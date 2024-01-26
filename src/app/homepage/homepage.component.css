@@ -1,0 +1,47 @@
+.bg-primary-subtle {
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+mat-form-field {
+  width: 300px;
+}
+
+.bg-primary-subtle .container ul  {
+  list-style: none;
+  padding-left: 20px;
+}
+/* pc */
+.bg-primary-subtle .container ul li {
+  width: max-content;
+  position: relative;
+  /* margin-left: 5rem; */
+}
+
+.bg-primary-subtle .container  ul li::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 8px;
+  left: -20px;
+  border-radius: 50%;
+  background-color: #69F0AE;
+  z-index: 2;
+}
+
+.bg-primary-subtle .container  ul li::after {
+  margin-top: 5px;
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  top: 10%;
+  left: -15.5px;
+  z-index: 1;
+  background: #69F0AE;
+}
+
+.bg-primary-subtle .container ul li:nth-child(4):after {
+  height: 200%;
+}

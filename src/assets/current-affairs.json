@@ -1,0 +1,184 @@
+{
+  "questions": [{
+          "question": "Which year did Nigeria got her independence",
+          "options": [
+            {
+              "text": 1958
+              },
+              {
+              "text": 1960,
+              "correct": true
+              },
+              {
+              "text": 1963
+              },
+              {
+              "text": 1999
+              }
+            ]
+      },
+            {
+              "question": "How many states were created in 1991?",
+              "options":[
+                {
+                "text": 6
+              },
+                {
+                "text": 2
+              },
+                {
+                "text": 5
+              },
+                {
+                "text": 10,
+                "correct": true
+              }
+            ]
+            },
+            {
+              "question": "Who is the first Nigerian military head of state?",
+              "options":[
+                {
+                "text": "Johnson Aguiyi-Ironsi",
+                "correct": true
+              },
+                {
+                "text": "Kaduna Nzeogwu"
+              },
+                {
+                "text": "Olusegun Obasanjo"
+              },
+                {
+                "text": "Yakubu Gowon"
+              }
+            ]
+            },
+            {
+              "question": "The first military coup in Nigeria happened in which year?",
+              "options":[
+                {
+                "text": 1960
+              },
+                {
+                "text": 1991
+              },
+                {
+                "text": 1966,
+                "correct": true
+              },
+                {
+                "text": 1970
+              }
+            ]
+            },
+            {
+              "question": "Nigeria was amalgamated in which year by who?",
+              "options":[
+                {
+                "text": "1919 by John F. Kennedy"
+              },
+                {
+                "text": "1914 by Fredrick Lugard",
+                "correct": true
+              },
+                {
+                "text": "1914 by Flora Shaw"
+              },
+                {
+                "text": "1945 by Hugh Clifford"
+              }
+            ]
+            },
+            {
+              "question": "The Nigerian fourth republic started in which year?",
+              "options":[
+                {
+                "text": 1963
+              },
+                {
+                "text": 1978
+              },
+                {
+                "text": 1999,
+                "correct": true
+              },
+                {
+                "text": 1960
+              }
+            ]
+            },
+            {
+              "question": "When was Nigerian federal capital territory moved to Abuja?",
+              "options":[
+                {
+                "text": "12 December 1991",
+                "correct": true
+              },
+                {
+                "text": "30 January 1970"
+              },
+                {
+                "text": "16 June 1996"
+              },
+                {
+                "text": "29 May 1999"
+              }
+            ]
+            },
+            {
+              "question": "Olusegun Obasanjo was the president of Nigeria between which years?",
+              "options":[
+                {
+                "text": "May 1999 - May 2003"
+              },
+                {
+                "text": "April 1999 - July 2007"
+              },
+                {
+                "text": "June 1999 - May 2007"
+              },
+                {
+                "text": "May 1999 - May 2007",
+                "correct": true
+              }
+            ]
+            },
+            {
+              "question": "Who is first Nigerian senate president in the fourth republic? ",
+              "options":[
+                {
+                "text": "Chuba Okadigbo",
+                "correct": true
+              },
+                {
+                "text": "Ken Nnamani"
+              },
+                {
+                "text": "David Mark"
+              },
+                {
+                "text": "Ahmed Lawal"
+              }
+            ]
+            },
+            {
+              "question": "Muhammadu Buhari was Nigeria military head of state from when?",
+              "options":[
+                {
+                "text": "20 April 1980 - March 1988"
+              },
+                {
+                "text": "31 December 1983 - 27 August 1985",
+                "correct": true
+              },
+                {
+                "text": "31 July 1966 - 19 December 1970"
+              },
+                {
+                "text": "21 August 1983 - 17 June 1984"
+              }
+            ]
+            }
+    ]
+
+}

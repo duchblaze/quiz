@@ -1,18 +1,18 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { QuizService } from './service/quiz.service';
-import { QuizComponent } from './quiz/quiz.component';
 import { Title } from '@angular/platform-browser';
-import { ResultComponent } from './result/result.component';
-import { Result } from './interface/result';
+import { Result } from '../interface/result';
+import { ResultComponent } from '../result/result.component';
+import { QuizComponent } from '../quiz/quiz.component';
+import { QuizService } from '../service/quiz.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-software-quiz',
+  templateUrl: './software-quiz.component.html',
+  styleUrls: ['./software-quiz.component.css']
 })
-export class AppComponent implements OnInit {
+export class SoftwareQuizComponent implements OnInit{
 
-  public questionLimit: number;
+  public questionLimit: any;
   public difficulty: string;
   public showQuizScreen!: boolean;
   public showMainMenu!: boolean;
@@ -23,12 +23,11 @@ export class AppComponent implements OnInit {
   @ViewChild('quiz', { static: true }) quiz!: QuizComponent;
   @ViewChild('quizResult', { static: true }) quizResult!: ResultComponent;
 
-
   constructor(
     private quizService: QuizService,
     private appTitle: Title
   ) {
-    this.questionLimit = 10;
+    this.questionLimit = 'Pick number of questions';
     this.difficulty = 'Easy';
     this.showMainMenu = true;
 
@@ -72,5 +71,4 @@ export class AppComponent implements OnInit {
   toggleSpinner() {
     this.showSpinner = !this.showSpinner
   }
-
 }

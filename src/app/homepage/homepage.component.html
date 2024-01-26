@@ -1,0 +1,48 @@
+<div class="bg-primary-subtle">
+  <form class="container" #f="ngForm" (ngSubmit)="startQuiz(f)">
+    <h1 class="display-5 fw-bold" style="font-family: cursive; text-align: center">Welcome to Quiz App</h1>
+    <p class="col-md-8 fs-4">This quiz will test your knowledge on so many subject areas. Fell free to test your knowledge on any of your preferred quiz.</p>
+    <h4>Rules</h4>
+    <ol>
+      <li>Correct question gives you 10 points</li>
+      <li>Incorrect question will deduct 10 points from you</li>
+      <li>You will have 10 seconds to answer each question.</li>
+      <li>Refreshing the page will reset the quiz</li>
+    </ol>
+    <h3 style="font-family: cursive; text-align: center;">Best of Lucks</h3>
+    <div class="name col-md-4 my-3">
+      <mat-form-field>
+      <label  for="">Enter your name</label>
+      <input class="mb-4"
+      matInput
+      #name
+      name="myName"
+      ngModel
+      required
+      minlength="3"
+      #nameInput="ngModel"
+      type="text"
+      class="form-control">
+      <mat-error *ngIf="nameInput.hasError('required')" style="color: red;">Name must not be empty</mat-error>
+      <mat-error *ngIf="nameInput.hasError('minlength')" style="color: red;">Name must be up to three letters.</mat-error>
+      </mat-form-field>
+    </div>
+    <button
+    type="submit"
+    [disabled]="f.invalid"
+    (click)="startQuiz(f)"
+    class="btn btn-primary btn-lg mx-3"
+    routerLink="/app-questions">
+    Start Quiz
+    </button>
+  </form>
+</div>
+
+<div>
+  <select [(ngModel)]="selectedOption">
+    <option value="Religion">Religion</option>
+    <option value="Politics">Politics</option>
+  </select>
+  <button (click)="navigate()">Submit</button>
+</div>
+
